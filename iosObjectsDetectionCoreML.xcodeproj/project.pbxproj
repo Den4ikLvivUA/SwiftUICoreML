@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC8E7CE12A14F41A00DA43E8 /* iosObjectsDetectionCoreMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7CE02A14F41A00DA43E8 /* iosObjectsDetectionCoreMLApp.swift */; };
-		BC8E7CE32A14F41A00DA43E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7CE22A14F41A00DA43E8 /* ContentView.swift */; };
+		BC8E7CE32A14F41A00DA43E8 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7CE22A14F41A00DA43E8 /* ExampleView.swift */; };
 		BC8E7CE52A14F41B00DA43E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8E7CE42A14F41B00DA43E8 /* Assets.xcassets */; };
 		BC8E7CE82A14F41B00DA43E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8E7CE72A14F41B00DA43E8 /* Preview Assets.xcassets */; };
 		BC8E7CEA2A14F41B00DA43E8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7CE92A14F41B00DA43E8 /* Persistence.swift */; };
@@ -16,6 +16,20 @@
 		BC8E7CF72A14F41B00DA43E8 /* iosObjectsDetectionCoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7CF62A14F41B00DA43E8 /* iosObjectsDetectionCoreMLTests.swift */; };
 		BC8E7D012A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D002A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITests.swift */; };
 		BC8E7D032A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D022A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITestsLaunchTests.swift */; };
+		BC8E7D132A14F50400DA43E8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D122A14F50400DA43E8 /* CameraView.swift */; };
+		BC8E7D1C2A14F6C600DA43E8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D1A2A14F6C600DA43E8 /* Camera.swift */; };
+		BC8E7D1D2A14F6C600DA43E8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D1B2A14F6C600DA43E8 /* DataModel.swift */; };
+		BC8E7D1F2A14F70400DA43E8 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D1E2A14F70400DA43E8 /* PhotoCollectionView.swift */; };
+		BC8E7D212A14F73200DA43E8 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D202A14F73200DA43E8 /* PhotoCollection.swift */; };
+		BC8E7D2B2A14F76100DA43E8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D222A14F76000DA43E8 /* PhotoAssetCollection.swift */; };
+		BC8E7D2C2A14F76100DA43E8 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D232A14F76000DA43E8 /* PhotoView.swift */; };
+		BC8E7D2D2A14F76100DA43E8 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D242A14F76000DA43E8 /* CachedImageManager.swift */; };
+		BC8E7D2E2A14F76100DA43E8 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D252A14F76000DA43E8 /* PhotoItemView.swift */; };
+		BC8E7D2F2A14F76100DA43E8 /* SceneImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D262A14F76000DA43E8 /* SceneImageView.swift */; };
+		BC8E7D302A14F76100DA43E8 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D272A14F76000DA43E8 /* PhotoAsset.swift */; };
+		BC8E7D312A14F76100DA43E8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D282A14F76000DA43E8 /* PhotoLibrary.swift */; };
+		BC8E7D322A14F76100DA43E8 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D292A14F76000DA43E8 /* ThumbnailView.swift */; };
+		BC8E7D362A15135C00DA43E8 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D352A15135C00DA43E8 /* YOLOv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +52,7 @@
 /* Begin PBXFileReference section */
 		BC8E7CDD2A14F41A00DA43E8 /* iosObjectsDetectionCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosObjectsDetectionCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8E7CE02A14F41A00DA43E8 /* iosObjectsDetectionCoreMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosObjectsDetectionCoreMLApp.swift; sourceTree = "<group>"; };
-		BC8E7CE22A14F41A00DA43E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC8E7CE22A14F41A00DA43E8 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		BC8E7CE42A14F41B00DA43E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8E7CE72A14F41B00DA43E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC8E7CE92A14F41B00DA43E8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +62,21 @@
 		BC8E7CFC2A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosObjectsDetectionCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8E7D002A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosObjectsDetectionCoreMLUITests.swift; sourceTree = "<group>"; };
 		BC8E7D022A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosObjectsDetectionCoreMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC8E7D122A14F50400DA43E8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		BC8E7D1A2A14F6C600DA43E8 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		BC8E7D1B2A14F6C600DA43E8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		BC8E7D1E2A14F70400DA43E8 /* PhotoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
+		BC8E7D202A14F73200DA43E8 /* PhotoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+		BC8E7D222A14F76000DA43E8 /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		BC8E7D232A14F76000DA43E8 /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		BC8E7D242A14F76000DA43E8 /* CachedImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		BC8E7D252A14F76000DA43E8 /* PhotoItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		BC8E7D262A14F76000DA43E8 /* SceneImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneImageView.swift; sourceTree = "<group>"; };
+		BC8E7D272A14F76000DA43E8 /* PhotoAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		BC8E7D282A14F76000DA43E8 /* PhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		BC8E7D292A14F76000DA43E8 /* ThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		BC8E7D342A14F84100DA43E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BC8E7D352A15135C00DA43E8 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +127,11 @@
 		BC8E7CDF2A14F41A00DA43E8 /* iosObjectsDetectionCoreML */ = {
 			isa = PBXGroup;
 			children = (
+				BC8E7D342A14F84100DA43E8 /* Info.plist */,
+				BC8E7D142A14F61000DA43E8 /* Camera */,
+				BC8E7D0F2A14F49500DA43E8 /* Core Model */,
 				BC8E7CE02A14F41A00DA43E8 /* iosObjectsDetectionCoreMLApp.swift */,
-				BC8E7CE22A14F41A00DA43E8 /* ContentView.swift */,
+				BC8E7CE22A14F41A00DA43E8 /* ExampleView.swift */,
 				BC8E7CE42A14F41B00DA43E8 /* Assets.xcassets */,
 				BC8E7CE92A14F41B00DA43E8 /* Persistence.swift */,
 				BC8E7CEB2A14F41B00DA43E8 /* iosObjectsDetectionCoreML.xcdatamodeld */,
@@ -131,6 +163,34 @@
 				BC8E7D022A14F41B00DA43E8 /* iosObjectsDetectionCoreMLUITestsLaunchTests.swift */,
 			);
 			path = iosObjectsDetectionCoreMLUITests;
+			sourceTree = "<group>";
+		};
+		BC8E7D0F2A14F49500DA43E8 /* Core Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E7D352A15135C00DA43E8 /* YOLOv3.mlmodel */,
+			);
+			path = "Core Model";
+			sourceTree = "<group>";
+		};
+		BC8E7D142A14F61000DA43E8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E7D242A14F76000DA43E8 /* CachedImageManager.swift */,
+				BC8E7D272A14F76000DA43E8 /* PhotoAsset.swift */,
+				BC8E7D222A14F76000DA43E8 /* PhotoAssetCollection.swift */,
+				BC8E7D252A14F76000DA43E8 /* PhotoItemView.swift */,
+				BC8E7D282A14F76000DA43E8 /* PhotoLibrary.swift */,
+				BC8E7D232A14F76000DA43E8 /* PhotoView.swift */,
+				BC8E7D292A14F76000DA43E8 /* ThumbnailView.swift */,
+				BC8E7D262A14F76000DA43E8 /* SceneImageView.swift */,
+				BC8E7D202A14F73200DA43E8 /* PhotoCollection.swift */,
+				BC8E7D1E2A14F70400DA43E8 /* PhotoCollectionView.swift */,
+				BC8E7D1A2A14F6C600DA43E8 /* Camera.swift */,
+				BC8E7D1B2A14F6C600DA43E8 /* DataModel.swift */,
+				BC8E7D122A14F50400DA43E8 /* CameraView.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +323,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8E7D2D2A14F76100DA43E8 /* CachedImageManager.swift in Sources */,
+				BC8E7D312A14F76100DA43E8 /* PhotoLibrary.swift in Sources */,
+				BC8E7D322A14F76100DA43E8 /* ThumbnailView.swift in Sources */,
 				BC8E7CED2A14F41B00DA43E8 /* iosObjectsDetectionCoreML.xcdatamodeld in Sources */,
+				BC8E7D2B2A14F76100DA43E8 /* PhotoAssetCollection.swift in Sources */,
+				BC8E7D2C2A14F76100DA43E8 /* PhotoView.swift in Sources */,
+				BC8E7D302A14F76100DA43E8 /* PhotoAsset.swift in Sources */,
 				BC8E7CEA2A14F41B00DA43E8 /* Persistence.swift in Sources */,
-				BC8E7CE32A14F41A00DA43E8 /* ContentView.swift in Sources */,
+				BC8E7D132A14F50400DA43E8 /* CameraView.swift in Sources */,
+				BC8E7CE32A14F41A00DA43E8 /* ExampleView.swift in Sources */,
+				BC8E7D1F2A14F70400DA43E8 /* PhotoCollectionView.swift in Sources */,
+				BC8E7D212A14F73200DA43E8 /* PhotoCollection.swift in Sources */,
+				BC8E7D362A15135C00DA43E8 /* YOLOv3.mlmodel in Sources */,
+				BC8E7D2E2A14F76100DA43E8 /* PhotoItemView.swift in Sources */,
+				BC8E7D1D2A14F6C600DA43E8 /* DataModel.swift in Sources */,
+				BC8E7D1C2A14F6C600DA43E8 /* Camera.swift in Sources */,
+				BC8E7D2F2A14F76100DA43E8 /* SceneImageView.swift in Sources */,
 				BC8E7CE12A14F41A00DA43E8 /* iosObjectsDetectionCoreMLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +499,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iosObjectsDetectionCoreML/Preview Content\"";
-				DEVELOPMENT_TEAM = 9WW9Z623Y6;
+				DEVELOPMENT_TEAM = 3E8WWLT8HN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iosObjectsDetectionCoreML/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need camera access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,9 +530,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iosObjectsDetectionCoreML/Preview Content\"";
-				DEVELOPMENT_TEAM = 9WW9Z623Y6;
+				DEVELOPMENT_TEAM = 3E8WWLT8HN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iosObjectsDetectionCoreML/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need camera access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
